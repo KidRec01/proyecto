@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios</title>
+    <link rel="stylesheet" href="../css/servicios.css">
+</head>
+<body>
+    <!--formulario de servicios-->
+    <div class="container">
+    <h2>SERVICIOS</h2>
+    <form action="#" method="POST">
+        <div class="form-group">
+        <label for="nombre"><h3>Tipo de servicio</h3></label>
+        <label><input type="checkbox" name="servicio[]" value="Revison"> Revisión </label>
+        <label><input type="checkbox" name="servicio[]" value="Mantenimento"> Mantenimento </label>
+    </div>
+    <div class="form-group">
+        <label for="descripción"><h3>Descripicion de servicio</h3></label>
+        <label><input type="checkbox" name="servicio[]" value="Cambio de aceite" checked> Cambio de aceite</label>
+        <label><input type="checkbox" name="servicio[]" value="Revisión de frenos"> Revisión de frenos</label>
+        <label><input type="checkbox" name="servicio[]" value="Ajuste de motor"> Ajuste de motor</label>
+        <label><input type="checkbox" name="servicio[]" value="Otro"> Otros</label>
+        <textarea id="mensaje" name="mensaje" rows="1" required></textarea>
+        </div>
+    <div class="form-group">
+        <label for="telefono"><h3>Costo de servicio</h3></label>
+        <textarea id="mensaje" name="mensaje" rows="1" required></textarea>
+    </div>
+    <div class="form-group">
+        <label for="mensaje"><h3>Placa moto servicio:</h3></label>
+        <textarea id="mensaje" name="mensaje" rows="1" required></textarea>
+    </div>
+    <button type="submit">Solicitar</button>
+    </form>
+    </div>
+</body>
+</html>

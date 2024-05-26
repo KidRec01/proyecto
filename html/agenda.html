@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Inscripción</title>
+    <link rel="stylesheet" href="../css/agenda.css">
+</head>
+<body>
+    
+    <!--formulario de inscripcion-->
+<div class="container">
+    <h2>AGENDA</h2>
+    <form action="#" method="POST">
+    <div class="form-group">
+        <label for="fecha"><h3>Fecha de agendamiento:</h3></label>
+        <input type="date" id="fecha" name="fecha" required>
+    </div>
+    <div class="form-group">
+        <label for="agenda"><h3>Tipo de agenda</h3></label>
+        <select id="agenda" name="agenda" required>
+        <option value="" disabled selected>Seleccione Agendamiento</option>
+        <option value="agenda1">Visita de cotizacion</option>
+        <option value="agenda2">Revison</option>
+        <option value="agenda3">Mantenimiento</option>
+        <option value="agenda4">Test Driver</option>
+        </select>
+    </div>
+    <button type="submit">Enviar</button>
+    </form>
+</div>
+</body>
+</html>

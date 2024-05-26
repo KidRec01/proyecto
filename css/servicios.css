@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background: url(/img/Concesionario-motos.jpg);
+    background-position: 700px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #ffffffdc;
+    color: #000307;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(230, 27, 27, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #bb1d1d;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+button {
+    display: block;
+    width: 40%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 30%;
+    margin-bottom: 15px;
+    margin-top: 35px;
+}
+
+button:hover {
+    background-color: #0056b3;
+
+}
+/* Estilos responsivos */
+@media screen and (max-width: 600px) {
+    .container {
+    max-width: 100%;
+    padding: 10px;
+    }
+}
